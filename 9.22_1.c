@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
   int dividend,divisor,quotient,remainer,greatestGommonDivisor;
 
@@ -32,7 +32,7 @@ void main()
   else
  printf("您输入的数据不合法，要求为两个正整数！");
 
-
+ return 0;
 }
 
 
